@@ -7092,6 +7092,12 @@ function save_file_clear_flags(flags)
     -- ...
 end
 
+--- @param fileIndex integer
+--- @return nil
+function save_file_erase(fileIndex)
+    -- ...
+end
+
 --- @param capPos Vec3s
 --- @return integer
 function save_file_get_cap_pos(capPos)
@@ -7140,6 +7146,11 @@ end
 --- @param maxCourse integer
 --- @return integer
 function save_file_get_total_star_count(fileIndex, minCourse, maxCourse)
+    -- ...
+end
+
+--- @return nil
+function save_file_reload()
     -- ...
 end
 
